@@ -17,7 +17,8 @@ export class CalculatorComponent implements OnInit {
   ngOnInit() {}
 
   add(): void {
-    if (!(Boolean(this.num1) && Boolean(this.num2))) {
+    if (isNaN(this.num1) || isNaN(this.num2)) {
+      this.result = undefined;
       return;
     }
     this.calculatorService
