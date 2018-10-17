@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <input type="number" [(ngModel)]="num1" placeholder="Enter Number 1" class="form-control" />
+    </div>
+    <div class="col-md-4">
+      <input type="number" [(ngModel)]="num2" placeholder="Enter Number 2" class="form-control" />
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-outline-primary" (click)='add()'>Add</button>
+    </div>
+  </div>
+  <br />
+  <div class="row">
+    <label class="col-md-5 col-md-offset-4">
+      <h2>Result: {{result}}</h2>
+    </label>
+  </div>
+</div>
