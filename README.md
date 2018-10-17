@@ -1,5 +1,24 @@
 # CalculatorExercise
 
+## Instructions for running the app
+
+Make sure you have `@angular/cli` installed on your machine.
+If not, follow the very simple and straightforward instruction of hot to instal it on [Angular Getting Started](https://angular.io/guide/quickstart).
+
+Now open your terminal, `cd` into the directory in which the project was cloned to, and run `npm i` to run all the project dependencies installation.
+
+After installing all the dependencies, simply run `npm run app`.
+That call will open a server and serve the app with the address `http://localhost:3000`.
+Now you can open a tab in your browser and navigate to that address.
+
+All native angular files, including app module, components and service can be viewed in `/src/app` folder.
+
+---
+
+---
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
 
 ## Development server
